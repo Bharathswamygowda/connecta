@@ -1,0 +1,28 @@
+.widget-header h5{
+font-size: 14px;
+margin: 15px 0 0;
+text-align: center;
+}
+
+#latest_time{
+text-align: center;
+font-size: 3rem;
+font-weight: bold;
+color:#085984;
+}
+
+.break_time{
+font-size: 11px;
+color: #333;
+font-weight: bold;
+}
+
+#total_time{
+height: 180px;
+overflow-y: scroll;
+overflow-x: hidden;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+background-color: #085984;
+}
