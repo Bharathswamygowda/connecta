@@ -10,7 +10,13 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 <link href="assets/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <link href="assets/stylesheets/plugins.css" rel="stylesheet" type="text/css" />
+<link href="assets/stylesheets/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/stylesheets/jquery-ui.theme.min.css" rel="stylesheet" type="text/css" />
+<link href="assets/stylesheets/custom-timeline.css" rel="stylesheet" type="text/css" />
+
 <!-- END GLOBAL MANDATORY STYLES -->
+
+
 
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
 <link href="css/dashboard.css" rel="stylesheet" type="text/css" />
@@ -278,10 +284,92 @@
 <div class="layout-px-spacing">
 
 <div class="row layout-top-spacing">
+<div class="col-lg-12 ">
+<div class="alert alert-gradient mb-4">
+<marquee onmouseover="this.stop();" onmouseout="this.start();"><strong>Good Morning!</strong> &nbsp; Team Meeting at 5 pm on <a href="#">teams</a> | Team Meeting at 6 pm on <a href="#">teams</a></marquee>
+</div> 
+</div>
+</div>
 
-<div class="col-8 col-lg-8 layout-spacing">
+
+<div class="row layout-top-spacing">
+
+<div class="col-8 col-lg-5 layout-spacing">
 <div class="statbox widget box box-shadow">
-&nbsp;
+
+<div class="widget-header">
+<h4> 9<sup>th</sup> June 2021 </strong></h4>
+</div>
+
+<div class="widget-content widget-content-area">
+
+<div class="mt-container mx-auto">
+<div class="timeline-line">
+
+<div class="item-timeline">
+<p class="t-time import">IMP</p>
+<div class="t-dot t-dot-primary">
+</div>
+<div class="t-text">
+<p><a href="javascript:void(0);">Today’s Sales Communication Follow Ups</a></p>
+</div>
+</div>
+
+<div class="item-timeline">
+<p class="t-time">12:45</p>
+<div class="t-dot t-dot-success">
+</div>
+<div class="t-text">
+<p> <a href="javascript:void(0);">XYZ1 Project, ABC1 Company, Mr John</a></p>
+<p class="t-meta-time">9th June 2021</p>
+</div>
+</div>
+
+<div class="item-timeline">
+<p class="t-time">14:00</p>
+<div class="t-dot t-dot-warning">
+</div>
+<div class="t-text">
+<p> <a href="javascript:void(0);">XYZ1 Project, ABC1 Company, Mr John</a></p>
+<p class="t-meta-time">9th June 2021</p>
+</div>
+</div>
+
+<div class="item-timeline">
+<p class="t-time">16:00</p>
+<div class="t-dot t-dot-info">
+</div>
+<div class="t-text">
+<p> <a href="javascript:void(0);">XYZ1 Project, ABC1 Company, Mr John</a></p>
+<p class="t-meta-time">9th June 2021</p>
+</div>
+</div>
+
+<div class="item-timeline">
+<p class="t-time">17:00</p>
+<div class="t-dot t-dot-danger">
+</div>
+<div class="t-text">
+<p> <a href="javascript:void(0);">XYZ1 Project, ABC1 Company, Mr John</a></p>
+<p class="t-meta-time">9th June 2021</p>
+</div>
+</div>
+
+<div class="item-timeline">
+<p class="t-time">16:00</p>
+<div class="t-dot t-dot-dark">
+</div>
+<div class="t-text">
+<p> <a href="javascript:void(0);">XYZ1 Project, ABC1 Company, Mr John</a></p>
+<p class="t-meta-time">9th June 2021</p>
+</div>
+</div>
+
+</div>                                    
+</div>
+
+</div>
+
 </div>
 </div>
 <!-- col-8 -->
@@ -353,6 +441,24 @@
 <td>1 Hour</td>
 </tr>
 
+<tr>
+<td>11:29 AM</td>
+<td>11:29 AM</td>
+<td>1 Hour</td>
+</tr>
+
+<tr>
+<td>11:29 AM</td>
+<td>11:29 AM</td>
+<td>1 Hour</td>
+</tr>
+
+<tr>
+<td>11:29 AM</td>
+<td>11:29 AM</td>
+<td>1 Hour</td>
+</tr>
+
 </tbody>
 </table>
 </div>
@@ -410,9 +516,29 @@
 </div>
 
 
+
+
+
+</div>
+<!-- col-4 -->
+
+<div class ="col-lg-3">     
+
+<div class="statbox widget box box-shadow">
+
+<div class="widget-header">
+<h4 class="pb-0">Calendar</h4>
+</div>
+
+<div class="widget-content widget-content-area text-center">
+<div id="datepicker"></div>
+</div>
+
+</div>
+
 <div class="statbox widget box box-shadow mt-4">
 <div class="widget-header">
-<h4>Work Location</h4>
+<h4 class="pb-0">Work Location</h4>
 </div>
 
 <div class="widget-content widget-content-area">
@@ -420,12 +546,7 @@
 </div>
 
 </div>
-
-
 </div>
-<!-- col-4 -->
-
-
 
 </div>
 
@@ -456,6 +577,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/perfect-scrollbar.min.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <script src="js/dashboard.js"></script>
 

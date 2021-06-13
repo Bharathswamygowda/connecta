@@ -55,3 +55,7 @@ countDiv.innerHTML = 'countdown done';
 
 }
 }
+
+$( function() {
+$( "#datepicker" ).datepicker();
+} );
