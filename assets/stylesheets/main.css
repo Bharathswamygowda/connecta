@@ -2068,3 +2068,23 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
 
 .position-relative {
   position: relative; }
+
+
+/* marquee */
+.alert-gradient {
+color: #fff;
+border: none;
+background-size: cover;
+background-image:linear-gradient(135deg, #e7515a 0%, #085984 100%);
+}
+
+marquee a{
+font-weight: bold;
+color: #fff;
+text-decoration: underline;
+}
+
+marquee a:hover{
+color: #fff;
+text-decoration: underline;
+}
