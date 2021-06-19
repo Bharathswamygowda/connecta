@@ -1,5 +1,5 @@
 table tr .form-control{
-width: auto !important;
+width: 100% !important;
 }
 
 .form-group label, label{
