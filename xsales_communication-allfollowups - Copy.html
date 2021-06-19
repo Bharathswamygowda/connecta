@@ -16,8 +16,6 @@
 
 <!-- END GLOBAL MANDATORY STYLES -->
 
-<link href="assets/stylesheets/datatables.css" rel="stylesheet" type="text/css" />
-<link href="assets/stylesheets/dt-global_style.css" rel="stylesheet" type="text/css" />
 
 
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
@@ -299,7 +297,9 @@
 <div class="col-xl-12 col-lg-12 col-sm-12 layout-spacing">
 <div class="statbox widget box box-shadow">
 
-
+<div class="widget-header">
+<h4 class="pb-0 "> Project Name:</h4>
+</div>
 
 <div class="widget-content widget-content-area">
 
@@ -307,14 +307,13 @@
 <div class="row">
 
 <div class="col-lg-3">
-<label> Project Name:</label>
 <select class="form-control">
-<option disabled>Select your project name</option>
-<option selected value="Project Name 1">Project Name 1</option>
-<option value="Project Name 2">Project Name 2</option>
-<option value="Project Name 3">Project Name 3</option>
-<option value=" Project Name 4">Project Name 4</option>
-<option  value="Project Name 5">Project Name 5</option>
+<option selected disabled>Select your project name</option>
+<optio value="">Project Name 1</option>
+<option value="">Project Name 2</option>
+<option value="">Project Name 3</option>
+<option value="">Project Name 4</option>
+<option  value="">Project Name 5</option>
 </select>
 </div>
 
@@ -324,17 +323,16 @@
 <div class="row">
 <div class="col-lg-12">
 
-<div class="table-responsive mb-4 mt-4">
-<table id="allfollow__up" class="table table-hover" style="width:100%">
-
+<div class="table-responsive mt-4">
+<table class="table table-bordered table-striped mb-4">
 <thead>
 <tr>
 <th>Follow Up</th>
 <th>Communication ID</th>
 <th>Project Category</th>
-<th>Project Name</th> 
+<th>Project Name</th>
 <th>Organisation Name</th>
-<th>Contact Person</th>
+<th class="text-center">Contact Person</th>
 <th>Mode of Contact</th>
 <th>Contacted Details </th>
 <th>Contact Status </th>
@@ -356,61 +354,316 @@
 <td>XYZ</td>
 <td>XYZ-1 Project </td>
 <td>ABC1 Company</td>
-<td>Mr Mathew - Sr. Sales Manager</td>
-<td>Mobile</td>
-<td>+91 9999999999</td>
-<td>Yet to Connect</td>
+<td>
+<select class="form-control">
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+</select>
+</td>
+<td>
+Mobile
+</td>
+<td>
+6666666666
+</td>
+<td>
+<select class="form-control">
+<option value="">Yet to Connect</option>
+<option value="">Connected and Intrested</option>
+<option value="">Connected Not Interested</option>
+<option value="">Connected Not Interested Now</option>
+</select>
+</td>
 <td>10th June 2021</td>
 <td>10th June 2021</td>
-<td>First Call</td>
-<td>Shown Interest - Under Discussion</td>
-<td>Awaiting Proposal</td>
-<td> 10th June 2021</td>
+<td>
+<select class="form-control">
+<option value="">First Email</option>
+<option value="">Follow Up Email</option>
+<option value="">First Call</option>
+<option value="">Follow Up Call</option>
+<option value="">First WhatsApp</option>
+<option value="">Follow Up WhatsApp</option>
+<option value="">First LinkedIn Message</option>
+<option value="">Follow Up LinkedIn Message</option>
+</select>
+</td>
+<td>
+<select class="form-control">
+<option value="">Exploring Interest & Awareness Building</option>
+<option value="">Shown Interest - Under Discussion</option>
+<option value="">Given Initial Proposal</option>
+<option value="">Awaiting Initial Proposal Feedback</option>
+<option value="">Negotiating on Initial Proposal</option>
+<option value="">Given Revised Proposa</option>
+<option value="">Awaiting Revised Proposal Feedback</option>
+<option value="">Negotiating on Revised Proposal</option>
+<option value="">Closed - Won</option>
+<option value="">Closed - Lost - Next Time</option>
+<option value="">Closed - Not Interested</option>
+</select>
+</td>
+<td>  <input type="text" class="form-control" placeholder="comments" aria-label="comments"></td>
+<td> <input type="date" class="form-control"> </td>
 <td>Dean 10th June 2021 10.00 am</td>
+
 </tr>
 
 <tr>
 <td><a href="#"><img src="img/link.svg"/></a></td>
-<td>COM-002</td>
+<td>COM-003</td>
 <td>XYZ</td>
-<td>XYZ-2 Project </td>
-<td>ABC2 Company</td>
-<td>Mr John - Manger</td>
-<td>Email</td>
-<td>mnjm@1235testtt.com</td>
-<td>Contacted and Interested</td>
-<td>8th June 2021</td>
-<td>8th June 2021</td>
-<td>First Email</td>
-<td>Shown Interest - Under Discussion</td>
-<td>Awaiting revised Quote</td>
-<td> 10th June 2021</td>
-<td>John 8th June 2021 10.00 am</td>
+<td>XYZ-1 Project </td>
+<td>ABC1 Company</td>
+<td>
+<select class="form-control">
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+</select>
+</td>
+<td>
+Mobile
+</td>
+<td>
+6666666666
+</td>
+<td>
+<select class="form-control">
+<option value="">Yet to Connect</option>
+<option value="">Connected and Intrested</option>
+<option value="">Connected Not Interested</option>
+<option value="">Connected Not Interested Now</option>
+</select>
+</td>
+<td>10th June 2021</td>
+<td>10th June 2021</td>
+<td>
+<select class="form-control">
+<option value="">First Email</option>
+<option value="">Follow Up Email</option>
+<option value="">First Call</option>
+<option value="">Follow Up Call</option>
+<option value="">First WhatsApp</option>
+<option value="">Follow Up WhatsApp</option>
+<option value="">First LinkedIn Message</option>
+<option value="">Follow Up LinkedIn Message</option>
+</select>
+</td>
+<td>
+<select class="form-control">
+<option value="">Exploring Interest & Awareness Building</option>
+<option value="">Shown Interest - Under Discussion</option>
+<option value="">Given Initial Proposal</option>
+<option value="">Awaiting Initial Proposal Feedback</option>
+<option value="">Negotiating on Initial Proposal</option>
+<option value="">Given Revised Proposa</option>
+<option value="">Awaiting Revised Proposal Feedback</option>
+<option value="">Negotiating on Revised Proposal</option>
+<option value="">Closed - Won</option>
+<option value="">Closed - Lost - Next Time</option>
+<option value="">Closed - Not Interested</option>
+</select>
+</td>
+<td>  <input type="text" class="form-control" placeholder="comments" aria-label="comments"></td>
+<td> <input type="date" class="form-control"> </td>
+<td>Dean 10th June 2021 10.00 am</td>
+
 </tr>
 
 <tr>
 <td><a href="#"><img src="img/link.svg"/></a></td>
-<td>COM-001</td>
+<td>COM-003</td>
 <td>XYZ</td>
-<td>XYZ-3 Project </td>
-<td>ABC3 Company</td>
-<td>Mr Jim - Director</td>
-<td>LinkedIn</td>
-<td>https://www.linkedin.com/in/bharath-s-63ab79143/</td>
-<td>Connected Not Interested Now</td>
-<td>6th June 2021</td>
-<td>6th June 2021</td>
-<td>First LinkedIn Message</td>
-<td>Exploring Interest & Awareness Building</td>
-<td>Awaiting revised Quote</td>
-<td> 8th June 2021</td>
-<td>Jim 6th June 2021 10.00 am</td>
+<td>XYZ-1 Project </td>
+<td>ABC1 Company</td>
+<td>
+<select class="form-control">
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+</select>
+</td>
+<td>
+Mobile
+</td>
+<td>
+6666666666
+</td>
+<td>
+<select class="form-control">
+<option value="">Yet to Connect</option>
+<option value="">Connected and Intrested</option>
+<option value="">Connected Not Interested</option>
+<option value="">Connected Not Interested Now</option>
+</select>
+</td>
+<td>10th June 2021</td>
+<td>10th June 2021</td>
+<td>
+<select class="form-control">
+<option value="">First Email</option>
+<option value="">Follow Up Email</option>
+<option value="">First Call</option>
+<option value="">Follow Up Call</option>
+<option value="">First WhatsApp</option>
+<option value="">Follow Up WhatsApp</option>
+<option value="">First LinkedIn Message</option>
+<option value="">Follow Up LinkedIn Message</option>
+</select>
+</td>
+<td>
+<select class="form-control">
+<option value="">Exploring Interest & Awareness Building</option>
+<option value="">Shown Interest - Under Discussion</option>
+<option value="">Given Initial Proposal</option>
+<option value="">Awaiting Initial Proposal Feedback</option>
+<option value="">Negotiating on Initial Proposal</option>
+<option value="">Given Revised Proposa</option>
+<option value="">Awaiting Revised Proposal Feedback</option>
+<option value="">Negotiating on Revised Proposal</option>
+<option value="">Closed - Won</option>
+<option value="">Closed - Lost - Next Time</option>
+<option value="">Closed - Not Interested</option>
+</select>
+</td>
+<td>  <input type="text" class="form-control" placeholder="comments" aria-label="comments"></td>
+<td> <input type="date" class="form-control"> </td>
+<td>Dean 10th June 2021 10.00 am</td>
+
 </tr>
 
+<tr>
+<td><a href="#"><img src="img/link.svg"/></a></td>
+<td>COM-003</td>
+<td>XYZ</td>
+<td>XYZ-1 Project </td>
+<td>ABC1 Company</td>
+<td>
+<select class="form-control">
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+</select>
+</td>
+<td>
+Mobile
+</td>
+<td>
+6666666666
+</td>
+<td>
+<select class="form-control">
+<option value="">Yet to Connect</option>
+<option value="">Connected and Intrested</option>
+<option value="">Connected Not Interested</option>
+<option value="">Connected Not Interested Now</option>
+</select>
+</td>
+<td>10th June 2021</td>
+<td>10th June 2021</td>
+<td>
+<select class="form-control">
+<option value="">First Email</option>
+<option value="">Follow Up Email</option>
+<option value="">First Call</option>
+<option value="">Follow Up Call</option>
+<option value="">First WhatsApp</option>
+<option value="">Follow Up WhatsApp</option>
+<option value="">First LinkedIn Message</option>
+<option value="">Follow Up LinkedIn Message</option>
+</select>
+</td>
+<td>
+<select class="form-control">
+<option value="">Exploring Interest & Awareness Building</option>
+<option value="">Shown Interest - Under Discussion</option>
+<option value="">Given Initial Proposal</option>
+<option value="">Awaiting Initial Proposal Feedback</option>
+<option value="">Negotiating on Initial Proposal</option>
+<option value="">Given Revised Proposa</option>
+<option value="">Awaiting Revised Proposal Feedback</option>
+<option value="">Negotiating on Revised Proposal</option>
+<option value="">Closed - Won</option>
+<option value="">Closed - Lost - Next Time</option>
+<option value="">Closed - Not Interested</option>
+</select>
+</td>
+<td>  <input type="text" class="form-control" placeholder="comments" aria-label="comments"></td>
+<td> <input type="date" class="form-control"> </td>
+<td>Dean 10th June 2021 10.00 am</td>
+
+</tr>
+
+<tr>
+<td><a href="#"><img src="img/link.svg"/></a></td>
+<td>COM-003</td>
+<td>XYZ</td>
+<td>XYZ-1 Project </td>
+<td>ABC1 Company</td>
+<td>
+<select class="form-control">
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+<option value="">Mr Mathew - Sr. Sales Manager</option>
+</select>
+</td>
+<td>
+Mobile
+</td>
+<td>
+6666666666
+</td>
+<td>
+<select class="form-control">
+<option value="">Yet to Connect</option>
+<option value="">Connected and Intrested</option>
+<option value="">Connected Not Interested</option>
+<option value="">Connected Not Interested Now</option>
+</select>
+</td>
+<td>10th June 2021</td>
+<td>10th June 2021</td>
+<td>
+<select class="form-control">
+<option value="">First Email</option>
+<option value="">Follow Up Email</option>
+<option value="">First Call</option>
+<option value="">Follow Up Call</option>
+<option value="">First WhatsApp</option>
+<option value="">Follow Up WhatsApp</option>
+<option value="">First LinkedIn Message</option>
+<option value="">Follow Up LinkedIn Message</option>
+</select>
+</td>
+<td>
+<select class="form-control">
+<option value="">Exploring Interest & Awareness Building</option>
+<option value="">Shown Interest - Under Discussion</option>
+<option value="">Given Initial Proposal</option>
+<option value="">Awaiting Initial Proposal Feedback</option>
+<option value="">Negotiating on Initial Proposal</option>
+<option value="">Given Revised Proposa</option>
+<option value="">Awaiting Revised Proposal Feedback</option>
+<option value="">Negotiating on Revised Proposal</option>
+<option value="">Closed - Won</option>
+<option value="">Closed - Lost - Next Time</option>
+<option value="">Closed - Not Interested</option>
+</select>
+</td>
+<td>  <input type="text" class="form-control" placeholder="comments" aria-label="comments"></td>
+<td> <input type="date" class="form-control"> </td>
+<td>Dean 10th June 2021 10.00 am</td>
+
+</tr>
 
 </tbody>
-
-
 </table>
 </div>
 
@@ -458,9 +711,7 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/perfect-scrollbar.min.js"></script>
 <script src="assets/js/app.js"></script>
-
-<script src="assets/js/datatables.js"></script>
-
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 <script src="js/sales_communication.js"></script>
 
