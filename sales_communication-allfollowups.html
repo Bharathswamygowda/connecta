@@ -15,9 +15,9 @@
 <link href="assets/stylesheets/custom-timeline.css" rel="stylesheet" type="text/css" />
 
 <!-- END GLOBAL MANDATORY STYLES -->
-
+<!-- 
 <link href="assets/stylesheets/datatables.css" rel="stylesheet" type="text/css" />
-<link href="assets/stylesheets/dt-global_style.css" rel="stylesheet" type="text/css" />
+<link href="assets/stylesheets/dt-global_style.css" rel="stylesheet" type="text/css" /> -->
 
 
 <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
@@ -321,14 +321,13 @@
 </div>
 <!-- row -->
 
-<div class="row">
+<div class="row mt-5">
 <div class="col-lg-12">
 
-<div class="table-responsive mb-4 mt-4">
-<table id="allfollow__up" class="table table-hover" style="width:100%">
-
+<div class="table-responsive">
+<table id="demo" class="table TF">
 <thead>
-<tr>
+<tr class="fltrow">
 <th>Follow Up</th>
 <th>Communication ID</th>
 <th>Project Category</th>
@@ -345,19 +344,19 @@
 <th>Recent Communication Details   </th>
 <th>Next Follow up date  </th>
 <th>Modified Date & Time </th>
-
 </tr>
-</thead>
 
+</thead>
 <tbody>
+
 <tr>
 <td><a href="#"><img src="img/link.svg"/></a></td>
-<td>COM-003</td>
+<td>COM-004</td>
 <td>XYZ</td>
 <td>XYZ-1 Project </td>
 <td>ABC1 Company</td>
-<td>Mr Mathew - Sr. Sales Manager</td>
-<td>Mobile</td>
+<td>Mr Sachin - Sr. Sales Manager</td>
+<td>landline</td>
 <td>+91 9999999999</td>
 <td>Yet to Connect</td>
 <td>10th June 2021</td>
@@ -371,14 +370,33 @@
 
 <tr>
 <td><a href="#"><img src="img/link.svg"/></a></td>
-<td>COM-002</td>
+<td>COM-003</td>
 <td>XYZ</td>
 <td>XYZ-2 Project </td>
+<td>ABC1 Company</td>
+<td>Mr Mathew - Sr. Sales Manager</td>
+<td>Mobile</td>
+<td>+91 9999999999</td>
+<td>Connected and Intrested</td>
+<td>10th June 2021</td>
+<td>10th June 2021</td>
+<td>First Call</td>
+<td>Shown Interest - Under Discussion</td>
+<td>Awaiting Proposal</td>
+<td> 10th June 2021</td>
+<td>Dean 10th June 2021 10.00 am</td>
+</tr>
+
+<tr>
+<td><a href="#"><img src="img/link.svg"/></a></td>
+<td>COM-002</td>
+<td>XYZ</td>
+<td>XYZ-3 Project </td>
 <td>ABC2 Company</td>
 <td>Mr John - Manger</td>
 <td>Email</td>
 <td>mnjm@1235testtt.com</td>
-<td>Contacted and Interested</td>
+<td>Connected Not Interested</td>
 <td>8th June 2021</td>
 <td>8th June 2021</td>
 <td>First Email</td>
@@ -392,7 +410,7 @@
 <td><a href="#"><img src="img/link.svg"/></a></td>
 <td>COM-001</td>
 <td>XYZ</td>
-<td>XYZ-3 Project </td>
+<td>XYZ-4 Project </td>
 <td>ABC3 Company</td>
 <td>Mr Jim - Director</td>
 <td>LinkedIn</td>
@@ -409,11 +427,8 @@
 
 
 </tbody>
-
-
 </table>
 </div>
-
 
 </div>
 </div>
@@ -459,7 +474,8 @@
 <script src="assets/js/perfect-scrollbar.min.js"></script>
 <script src="assets/js/app.js"></script>
 
-<script src="assets/js/datatables.js"></script>
+<!-- <script src="assets/js/datatables.js"></script> -->
+<script src="assets/js/tablefilter.js"></script>
 
 
 <script src="js/sales_communication.js"></script>

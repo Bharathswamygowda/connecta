@@ -15,17 +15,61 @@ $('input[type=date]').attr('min', minDate);
 });
 
 
-$('#allfollow__up').DataTable({
-"oLanguage": {
-"oPaginate": { "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>', "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>' },
-"sInfo": "Showing page _PAGE_ of _PAGES_",
-"sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
-"sSearchPlaceholder": "Search...",
-"sLengthMenu": "Results :  _MENU_",
+
+
+
+var tfConfig = {
+base_path: 'tablefilter/',
+alternate_rows: true,
+btn_reset: true,
+responsive: true,
+rows_counter: true,
+loader: true,
+status_bar: true,
+mark_active_columns: {
+highlight_column: true
 },
-"stripeClasses": [],
-"lengthMenu": [10, 20, 30, 50],
-"pageLength": 10 
-});
+highlight_keywords: true,
+no_results_message: true,
+col_0: 'none',
+col_1: 'none',
+col_2: 'none',
+col_3: 'none',
+col_4: 'none',
+col_5: 'select',
+col_6: 'select',
+col_7: 'none',
+col_8: 'select',
+col_9: 'select',
+col_10: 'select',
+col_11: 'select',
+col_12: 'select',
+col_13: 'select',
+col_14: 'select',
+col_15: 'none',
+
+
+
+
+
+
+
+extensions: [{
+name: 'sort'
+}],
+
+/** Bootstrap integration */
+
+// aligns filter at cell bottom when Bootstrap is enabled
+filters_cell_tag: 'th',
+
+// allows Bootstrap table styling
+themes: [{
+name: 'transparent'
+}]
+};
+
+var tf = new TableFilter(document.querySelector('.table'), tfConfig);
+tf.init();
 
 
